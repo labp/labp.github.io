@@ -94,9 +94,16 @@ hr {
 
 .container h1, .container h2, .container h3, .container h4 {
   margin-bottom: 20px;
+  margin-top: 30px;
   text-align: center;
   padding: 0 4%;
 }
+
+.container h3 {
+  text-align: left;
+  font-weight: bold;
+}
+
 .container p, .container ol, .container ul {
   *font-family: helvetica, arial;
   font-size: 18px;
@@ -106,6 +113,14 @@ hr {
 .container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {
     margin-top: 40px;
+}
+
+.container li {
+  line-height: 1.3em;
+}
+
+.container a {
+  text-decoration: none;
 }
 
 /* keep embedded videos fluid! */
@@ -219,7 +234,7 @@ nav ul li a:hover {
 .person:hover img {opacity: 1;}
 .person p {visibility: hidden;}
 .person:hover p {
-  text-align: center; 
+  text-align: center;
   line-height:1.3em;
   visibility: visible;
   font-size: 15px;

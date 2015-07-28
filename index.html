@@ -28,7 +28,7 @@
     <!-- Customization CSS styles -->
     <link href="css/skeleton.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">    
+    <link href="css/main.css" rel="stylesheet">
   </head>
 
   <body>
@@ -36,10 +36,11 @@
       <nav>
         <ul>
           <li><a href="#intro">Start</a></li>
-          <li><a href="#forschung">Forschung</a></li>
+          <!--<li><a href="#forschung">Forschung</a></li>-->
           <li><a href="#technologietransfer">Technologietransfer</a></li>
-          <li><a href="#referenzen">Referenzen</a></li>
-          <li><a href="#team">Team</a></li>
+          <!--<li><a href="#referenzen">Referenzen</a></li>-->
+          <!--<li><a href="#team">Team</a></li>-->
+          <li><a href="#studenten">Studenten</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
@@ -54,11 +55,12 @@
     </p>
 
     <p>
-      Neuigkeiten sowie Job- und Themenangebote für Praxisforschungs-, Bachelor- und Masterarbeiten finden Sie über unseren Twitter-Feed <i class="fa fa-twitter"></i> <a href="" style="text-decoration:none; color: #33AADC; font-weight:bold">@LaBP_HTWK</a>.
+      Neuigkeiten sowie Job- und Themenangebote für Praxisforschungs-, Bachelor- und Masterarbeiten finden Sie über unseren Twitter-Feed <i class="fa fa-twitter"></i> <a href="https://twitter.com/labp_htwk" target="_blank" style="text-decoration:none; color: #33AADC; font-weight:bold">@LaBP_HTWK</a>.
     </p>
   </div>
 </div>
 
+<!--
 <!=== Forschung ==>
 <div id="forschung" class="section">
   <div class="container">
@@ -66,6 +68,7 @@
 
   </div>
 </div>
+-->
 
 <!=== Technologietransfer ==>
 <div id="technologietransfer" class="section">
@@ -75,6 +78,7 @@
   </div>
 </div>
 
+<!--
 <!=== Referenzen ==>
 <div id="referenzen" class="section">
   <div class="container">
@@ -82,7 +86,9 @@
 
   </div>
 </div>
+-->
 
+<!--
 <!=== Team ==>
 <div id="team" class="section">
   <div class="container normal">
@@ -128,6 +134,33 @@
       <p>Friederike Frieler<br /><span style="font-size: 11px">Eventmanagement</span></p>
     </div>
 
+  </div>
+</div>
+-->
+
+<!=== Referenzen ==>
+<div id="studenten" class="section">
+  <div class="container">
+    <h1><strong>STUDENTEN</strong></h1>
+    <p>
+      Wir sind ständig auf der Suche nach Studenten, die uns im Rahmen ihrer Bachelor- und Masterarbeit unterstützen
+      wollen. Unabhängig von den hier ausgeschriebenen Themen könnt ihr uns immer ansprechen - auch wenn es um Projekte
+      neben den Vorlesungen oder in den Semesterferien geht.
+    </p>
+
+    <h3>Aktuelle Ausschreibungen</h3>
+    <ul>
+      <li><a href="">Kreative Köpfe gesucht</a></li>
+      <li>Verfahren zur kontinuierlichen Blutdruckmessung (PDF)</li>
+      <li>Entwicklung von Verfahren zru Automatisierten Bewertung und Visualisierung elektrokardiografischer (EKG) Daten (PDF)</li>
+      <li>Ergonomics in Motion - ein Werkzeug zur Ergonomie-Visualisierung in Echtzeit (PDF)</li>
+      <li>Biomechanische Bewertung markerloser Bewegungsdaten (PDF)</li>
+      <li>Low-Cost-Konverter für M-Bus und 1-Wire auf Ethernet (PDF)</li>
+    </ul>
+
+    <h3>Ansprechpartner</h3>
+    <p>Dr.-Ing. Gerold Bausch, E-Mail: gerold.bausch (at) htwk-leipzig.de, Tel. 0341 3076 3103</br>
+       Dipl.-Ing. Mirco Fuchs, E-Mail: mirco.fuchs (at) htwk-leipzig.de, Tel. 0341 3076 3104</p>
   </div>
 </div>
 
@@ -200,21 +233,21 @@
         'marker-size': 'large',
       }
     }).addTo(map);
-  
+
     marker.eachLayer(function(m) {
       m.openPopup();
     });
-    
+
     /*
-    L.control.layers({  
+    L.control.layers({
       "Karte": map.tileLayer,
       "Satellit": L.mapbox.tileLayer("gbausch.li40933g")
     }, null).addTo(map);
     */
-    
+
     map.touchZoom.disable();
     map.scrollWheelZoom.disable();
-    
+
     /*
     Nachfolgende Code ist nicht getestet und erzeugt
     wahrscheinlich Fehler!
@@ -234,5 +267,16 @@
   <script src="./js/site.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="./js/bootstrap.min.js"></script>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65088015-2', 'auto');
+  ga('send', 'pageview');
+  </script>
   </body>
 </html>
