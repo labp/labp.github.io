@@ -176,34 +176,31 @@ nav {
 
 nav ul {
   background: url(../img/labp.png) no-repeat 0 0;
-  *list-style: none;
+  list-style-type:none;
   text-align:right;
   padding:0;
-  *letter-spacing:-4px;
   width: 950px;
   margin: 10px auto;
+  *border: 1px solid;
 }
 
 nav ul li {
   list-style-type: disc;
   display:inline-block;
-  *display:inline;
-  *zoom:1;
-  letter-spacing:normal;
-  text-transform:uppercase;
-  line-height:60px;
-  margin: 0;
-  padding: 0 10px 0 10px;
-  *border: 5px solid;
-  color: #333333;
-  text-decoration: none;
-}
-
-nav ul li a, nav ul li a:visited {
-  display:block;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  *line-height:20px;
+  margin: 20px 0 20px 0;
+  padding: 0 10px 0px 10px;
   text-decoration: none;
   font-weight: 600;
   opacity:.75;
+  *border: 1px solid;
+}
+
+nav ul li a, nav ul li a:visited {
+  display: block;
+  text-decoration: none;
   color: #333333;
 }
 
@@ -213,10 +210,9 @@ nav ul li a:hover {
   color: #d9272d;
 }
 
-nav ul li a:nav-active {
-  opacity: 1;
-  *text-decoration: none;
+nav ul li.active a {
   color: #d9272d;
+  border-bottom: 5px solid #d9272d;
 }
 
 /* ----- sections/articles ----- */
@@ -227,19 +223,19 @@ nav ul li a:nav-active {
   width:100%;
   min-height:300px;
   padding: 30px 0;
-  background:url(img/bgnoise.png);
+  background:url(../img/bgnoise.png);
   /* generated noise from noisetexturegenerator.com */
 }
 
 .section:first-of-type {
-    padding-top: 140px;
+    padding-top: 100px;
 }
 
 #map {
   *position: absolute;
   *top:0px;
   *bottom:0;
-  width: auto;
+  *width: auto;
 }
 
 /* -------- Darstellung der Bilder im Bereich "Team" -------- */
