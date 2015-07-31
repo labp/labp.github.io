@@ -99,6 +99,10 @@ hr {
   padding: 0 4%;
 }
 
+.container h1 {
+  color: #007ac2;
+}
+
 .container h3 {
   text-align: left;
   font-weight: bold;
@@ -121,6 +125,12 @@ hr {
 
 .container a {
   text-decoration: none;
+  color: #d9272d;
+}
+
+.container a:hover {
+  color: #d9272d;
+  text-decoration: underline;
 }
 
 /* keep embedded videos fluid! */
@@ -200,9 +210,14 @@ nav ul li a, nav ul li a:visited {
 nav ul li a:hover {
   opacity: 1;
   text-decoration: none;
-  *color: #29A9E7;
+  color: #d9272d;
 }
 
+nav ul li a:nav-active {
+  opacity: 1;
+  *text-decoration: none;
+  color: #d9272d;
+}
 
 /* ----- sections/articles ----- */
 
@@ -228,7 +243,7 @@ nav ul li a:hover {
 }
 
 /* -------- Darstellung der Bilder im Bereich "Team" -------- */
-
+/*
 .person {width: 25%; height: 200px; float: left;}
 .person img {width:150px; height:150px; border-radius:50%; float: center; display: block; margin-left: auto; margin-right: auto;opacity: 0.8;}
 .person:hover img {opacity: 1;}
@@ -240,6 +255,7 @@ nav ul li a:hover {
   font-size: 15px;
   margin-top: 5px;
 }
+*/
 
 #footer {
   font-family: Arial, sans;
@@ -251,10 +267,12 @@ nav ul li a:hover {
   margin: 0 auto;
 }
 #footer .container p { font-size: 12px; margin:0; }
-#footer a {text-decoration: none; color: #2CA7DC; font-weight: bold;}
+#footer a {text-decoration: none; color: #007ac2; font-weight: bold;}
 
 
 .column {
+  font-family: Arial;
+  font-size:12px;
   line-height: 1.6em;
   float: left;
   text-align: left;
