@@ -92,7 +92,7 @@ hr {
   border-color: ;
 }
 
-.container { word-wrap: break-word; }
+.container { word-wrap: break-word; font-family: Raleway, Arial, sans;}
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
 
