@@ -24,6 +24,7 @@
 
     <!-- Additional fonts -->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' type='text/css'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type='text/css'>
 
     <!-- Customization CSS styles -->
@@ -50,13 +51,12 @@
       <!=== Start ==>
       <section id="intro" class="section">
         <div class="container">
-          <h1>Herzlich Willkommen beim</h1>
-          <h2><strong>LABORATORY for BIOSIGNAL PROCESSING</strong></h2>
+          <h1>LABORATORY for BIOSIGNAL PROCESSING</h1>
           <p>
             <a href="http://www.embedded-innovation.de" target="_blank">
               <img src="img/Innovationsforum2015.png" style="display:block;margin-left:auto;margin-right:auto;">
             </a>
-            <div style="text-align:center;font-size:22px;line-height:1.3em;margin-bottom:40px">Weitere Informationen finden Sie unter: <a style="color:#007ac2;font-weight:bold" href="http://www.embedded-innovation.de" target="_blank">www.embedded-innovation.de</a>.
+            <div style="text-align:center;line-height:1.3em"><p>Weitere Informationen finden Sie unter: <a style="color:#007ac2;font-weight:bold" href="http://www.embedded-innovation.de" target="_blank">www.embedded-innovation.de</a></p>
             </div>
           </p>
 
@@ -78,7 +78,7 @@
       <!=== Forschung ==>
       <section id="forschung" class="section">
         <div class="container">
-          <h1><strong>FORSCHUNG &amp; ENTWICKLUNG</strong>  </h1>
+          <h1>Forschung &amp; Entwicklung</h1>
 
           <p>
             Im Rahmen unserer Forschungsarbeit konnten wir uns ein umfangreiches Know-how in den Bereichen Embedded Systems,
@@ -99,7 +99,7 @@
       <!=== Technologietransfer ==>
       <section id="technologietransfer" class="section">
         <div class="container">
-          <h1><strong>TECHNOLOGIETRANSFER</strong></h1>
+          <h1>Technologietransfer</h1>
           <p>
             Forschungskooperationen zwischen Wissenschaft und Wirtschaft bilden eine entscheidende Grundlage für Innovationen und damit
             für die Wettbewerbsfähigkeit der Region.
@@ -131,7 +131,7 @@
 <!=== Team ==>
 <section id="team" class="section">
   <div class="container">
-    <h1><strong>UNSER TEAM</strong></h1>
+    <h1>Team</h1>
 
     <p>
       <img src="img/gruppe2014.jpg" style="display:block;margin-left:auto;margin-right:auto;">
@@ -144,7 +144,7 @@
 <!=== Studenten ==>
 <section id="studenten" class="section">
   <div class="container">
-    <h1><strong>STUDENTEN</strong></h1>
+    <h1>Studenten</h1>
     <p>
       Wir sind ständig auf der Suche nach Studenten, die uns im Rahmen ihrer Bachelor- oder Masterarbeit unterstützen
       möchten. Unabhängig von den hier ausgeschriebenen Themen haben wir ständig kleine und größere Projektarbeiten, um euer
@@ -152,6 +152,7 @@
     </p>
 
     <p>
+      <strong>Aktuelle Themenangebote:</strong>
       <ul>
         <li><a href="pdf/2015-03-23_Allgemein.pdf" target="_blank">Kreative Köpfe gesucht</a></li>
         <li><a href="pdf/2015-06-03_EKG-App.pdf" target="_blank">Entwicklung von Verfahren zur automatisierten Bewertung und Visualisierung elektrokardiografischer (EKG) Daten</a></li>
@@ -167,7 +168,7 @@
 <section id="kontakt" class="section">
   <div class="container center">
 
-    <h1><strong>Nehmen Sie Kontakt mit uns auf</strong></h1>
+    <h1>Nehmen Sie Kontakt mit uns auf</h1>
     <p>Hochschule für Technik, Wirtschaft und Kultur (HTWK) Leipzig,<br> Forschungszentrum Life Science &amp; Engineering</p>
     <br>
     <p>
@@ -201,33 +202,12 @@
         Tel. +49 341 3076 3104<br /><br />
       </div>
     </p>
-<!--
-    <div class="column" style="font-family: Arial; width:auto;padding-right:20px;font-size:12px">
-      <span style="font-weight:bold">Besucher:</span><br />
-      Eilenburger Straße 13<br />
-      04317 Leipzig<br /><br />
 
-      <span style="font-weight:bold">Briefe und Pakete:</span><br />
-      HTWK Leipzig<br />
-      Laboratory for Biosignal Processing<br />
-      Postfach 30 11 66<br />
-      04251 Leipzig<br /><br />
+    <p>
+      <div id="map" style="height:380px; width:960px"></div>
+    </p>
 
-      <span style="font-weight:bold">E-Mail:</span><br />
-      info@labp.htwk-leipzig.de<br /> <br />
-      <span style="font-weight:bold">Telefon:</span><br />
-      Dr.-Ing. Gerold Bausch<br />
-      +49 341 3076 3103<br /><br />
-
-      <span style="font-weight:bold">Twitter:</span>
-      <i class="fa fa-twitter"></i><a href="https://twitter.com/@LaBP_HTWK" style="text-decoration:none;">@LabP_HTWK</a><br />
-    </div>
-  -->
-  <p>
-    <div id="map" style="height: 380px; width:960px"></div>
-  </p>
-
-</div>
+  </div>
 </section>
 
 </div>
@@ -271,27 +251,9 @@
       m.openPopup();
     });
 
-    /*
-    L.control.layers({
-      "Karte": map.tileLayer,
-      "Satellit": L.mapbox.tileLayer("gbausch.li40933g")
-    }, null).addTo(map);
-*/
-
-map.touchZoom.disable();
-map.scrollWheelZoom.disable();
-
-    /*
-    Nachfolgende Code ist nicht getestet und erzeugt
-    wahrscheinlich Fehler!
-
-    map.fitBounds(markerLayer.getBounds());
-    map.dragging.disable();
     map.touchZoom.disable();
-    map.doubleClickZoom.disable();
     map.scrollWheelZoom.disable();
-    if (map.tap) map.tap.disable();
-    */
+
   </script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -50,7 +50,7 @@ html { box-sizing: border-box; }
 .bg-turquoise     { background-color: #0fbfcf !important;}
 
 body {
-  font-family: Raleway, Arial, sans;
+  font-family: 'Open Sans', 'Raleway', Arial, sans-serif;
 }
 
 
@@ -92,11 +92,12 @@ hr {
   border-color: ;
 }
 
-.container { word-wrap: break-word; font-family: Raleway, Arial, sans;}
+.container { word-wrap: break-word; font-family: 'Open Sans', 'Raleway', Arial, sans-serif}
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
 
 .container h1, .container h2, .container h3, .container h4 {
+  font-family: 'Open Sans', 'Raleway', Arial, sans-serif;
   margin-bottom: 20px;
   margin-top: 30px;
   text-align: center;
@@ -113,14 +114,20 @@ hr {
 }
 
 .container p, .container ol, .container ul {
-  *font-family: helvetica, arial;
+  font-family: 'Open Sans', 'Raleway', Arial, sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.5em;
   padding: 0 5%;
 }
 .container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {
-    margin-top: 40px;
+  margin-top: 40px;
+  font-family: 'Open Sans', 'Raleway', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5em;
+  padding: 0 5%;
 }
 
 .container li {
