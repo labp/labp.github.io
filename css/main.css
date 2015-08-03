@@ -49,6 +49,10 @@ html { box-sizing: border-box; }
 .text-turquoise a { color: #0fbfcf; }
 .bg-turquoise     { background-color: #0fbfcf !important;}
 
+body {
+  font-family: Raleway, Arial, sans;
+}
+
 
 /* ----- code, syntax highlighting, etc ----- */
 
