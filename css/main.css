@@ -94,7 +94,8 @@ hr {
 
 .container {
   word-wrap: break-word;
-  font-family: 'Open Sans', 'Raleway', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333333;
 }
 
 .center { text-align: center; }
@@ -191,9 +192,9 @@ nav {
 
 nav ul {
   background: url(../img/labp.png) no-repeat 0 0;
-  list-style-type:none;
-  text-align:right;
-  padding:0;
+  list-style-type: none;
+  text-align: right;
+  padding: 0;
   width: 950px;
   margin: 10px auto;
   *border: 1px solid;
@@ -201,10 +202,9 @@ nav ul {
 
 nav ul li {
   list-style-type: disc;
-  display:inline-block;
+  display: inline-block;
   letter-spacing: normal;
   text-transform: uppercase;
-  *line-height:20px;
   margin: 20px 0 20px 0;
   padding: 0 10px 0px 10px;
   text-decoration: none;
