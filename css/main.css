@@ -251,12 +251,18 @@ nav ul li.active a {
 .portrait {
   float: left;
   width: 405px;
+  height: 152px;
   margin-left: 50px;
   margin-bottom: 10px;
   font-size: 12px;
   line-height: 1.5em;
-  vertical-align: text-bottom;
   *border: 1px solid #000;
+}
+
+.portrait .info {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 150px;
 }
 
 .portrait img {
