@@ -50,7 +50,7 @@ html { box-sizing: border-box; }
 .bg-turquoise     { background-color: #0fbfcf !important;}
 
 body {
-  font-family: 'Open Sans', 'Raleway', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 
@@ -245,6 +245,34 @@ nav ul li.active a {
 .section:first-of-type {
     padding-top: 100px;
 }
+
+/* ----- team ----- */
+
+.portrait {
+  float: left;
+  width: 405px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  *position: absolute;
+  bottom: 0;
+  *left: 0;
+  *border: 1px solid #000;
+}
+
+.portrait img {
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.portrait h3 {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+/* ----- map ----- */
 
 #map {
   *position: absolute;
