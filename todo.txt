@@ -1,0 +1,2 @@
+- Team anpassen: kleine Einzelfotos mit Titel, Name, Funktion
+- Erster Abschnitt: CSS-Styles werden nicht richtig übernommen
