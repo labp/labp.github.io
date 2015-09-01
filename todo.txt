@@ -1,2 +1,1 @@
-- Team anpassen: kleine Einzelfotos mit Titel, Name, Funktion
 - Fotos mit Slider einfügen
