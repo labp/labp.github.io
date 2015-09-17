@@ -51,10 +51,13 @@
 			return query_string;
 		}();
 
+		var x = 0;
+
 		function startTimer(duration, display) {
     		var timer = duration, minutes, seconds;
+    		var visibility = 0;
 
-    		setInterval(function () {
+    		var intervalID1 = setInterval(function () {
         		minutes = parseInt(timer / 60, 10)
         		seconds = parseInt(timer % 60, 10);
 
@@ -63,10 +66,43 @@
 
         		display.textContent = minutes + ":" + seconds;
 
+        		if (timer < 120) {
+        			document.getElementById("time").style.color = "red";
+        		}
+
+        		if (timer < 60) {
+        			document.getElementById("time").style.color = "red";
+        		}
+
         		if (--timer < 0) {
-            		timer = duration;
+            	clearInterval(intervalID1);
+            	/*clearInterval(intervalID2);*/
+        		} else {
+
         		}
     		}, 1000);
+
+    		var intervalID2 = setInterval(function () {
+
+    			if (timer < 60) {
+    				switch (x) {
+    					case 0:
+    						document.getElementById("time").style.visibility = "visible";
+    						x++;
+    						break;
+    					case 7:
+    						document.getElementById("time").style.visibility = "hidden";
+    						x++;
+    						break;
+    					case 9:
+    						x = 0;
+    						break;
+    					default:
+    						x++;
+    						break;
+    				}
+    			}
+    		}, 100);
 		}
 
 		window.onload = function () {
