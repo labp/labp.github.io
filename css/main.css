@@ -89,13 +89,21 @@ img {
 hr {
   margin: 60px auto;
   width: 50%;
-  border-color: ;
 }
 
 .container {
   word-wrap: break-word;
   font-family: 'Open Sans', Arial, sans-serif;
   color: #333333;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5em;
+  padding: 0 3%;
+}
+
+.container img {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .center { text-align: center; }
@@ -119,16 +127,9 @@ hr {
   font-weight: bold;
 }
 
-.container p, .container ol, .container ul {
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5em;
-  padding: 0 5%;
-}
-
 .container ol, .container ul {
-  padding: 0 8%;
+  padding: 20px 0 0 40px;
+  line-height: 1.3em;
 }
 
 .first-of-type {
@@ -146,7 +147,7 @@ hr {
 
 .container a:hover {
   color: #d9272d;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* keep embedded videos fluid! */
@@ -169,7 +170,7 @@ hr {
   display:-moz-inline-stack;
   display:inline-block;
   zoom:1;
-  *display:inline;
+  /*display:inline;*/
 }
 
 /* ---------------------------*/
@@ -184,7 +185,7 @@ nav {
   height: 80px;
   position:fixed;
   z-index:100;
-  *padding: 0 50px 0 50px;
+  /*padding: 0 50px 0 50px;*/
   background: #FFFFFF;
   opacity: 0.95;
   box-shadow: 0 5px 10px grey;
@@ -197,7 +198,7 @@ nav ul {
   padding: 0;
   width: 950px;
   margin: 10px auto;
-  *border: 1px solid;
+  /*border: 1px solid;*/
 }
 
 nav ul li {
@@ -210,13 +211,17 @@ nav ul li {
   text-decoration: none;
   font-weight: 600;
   opacity:.75;
-  *border: 1px solid;
+  /*border: 1px solid;*/
 }
 
 nav ul li a, nav ul li a:visited {
   display: block;
   text-decoration: none;
   color: #333333;
+}
+
+nav ul li a:* {
+  text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -227,6 +232,7 @@ nav ul li a:hover {
 
 nav ul li.active a {
   color: #d9272d;
+  text-decoration: none;
   border-bottom: 5px solid #d9272d;
 }
 
@@ -243,20 +249,21 @@ nav ul li.active a {
 }
 
 .section:first-of-type {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 /* ----- team ----- */
 
 .portrait {
   float: left;
-  width: 405px;
+  /*width: 405px;*/
+  width: 50%;
   height: 152px;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
   margin-bottom: 10px;
   font-size: 12px;
   line-height: 1.5em;
-  *border: 1px solid #000;
+  /*border: 1px solid #000;*/
 }
 
 .portrait .info {
@@ -281,10 +288,10 @@ nav ul li.active a {
 /* ----- map ----- */
 
 #map {
-  *position: absolute;
-  *top:0px;
-  *bottom:0;
-  *width: auto;
+  /*position: absolute;*/
+  /*top:0px;*/
+  /*bottom:0;*/
+  /*width: auto;*/
 }
 
 #footer {
@@ -292,7 +299,7 @@ nav ul li.active a {
   padding: 8px 0;
   min-height: 0;
   text-align: center;
-  *background-color: #2e2e2e;
+  /*background-color: #2e2e2e;*/
   background-color: #3f4041;
   background-image: none;
   margin: 0 auto;
@@ -310,7 +317,7 @@ nav ul li.active a {
   text-align: left;
   padding: 5px;
   margin-bottom: 15px;
-  *border: 1px solid #000;
+  /*border: 1px solid #000;*/
 }
 
 
