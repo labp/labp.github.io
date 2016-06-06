@@ -337,6 +337,13 @@ nav ul li.active a {
 .longlist { font-size: 14px !important; }
 .longlist li { margin-bottom: 3px; }
 
+.panel-heading h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
 
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
