@@ -99,6 +99,7 @@ hr {
   font-size: 17px;
   line-height: 1.5em;
   padding: 0 3%;
+  /*border: solid 1px #000;*/
 }
 
 .container img {
@@ -106,7 +107,7 @@ hr {
   margin-bottom: 20px;
 }
 
-.center { text-align: center; }
+.center {text-align: center;}
 .left, .container .left { text-align: left; }
 
 .container h1, .container h2, .container h3, .container h4 {
@@ -115,11 +116,12 @@ hr {
   margin-top: 30px;
   text-align: center;
   padding: 0 4%;
+  height: auto;
 }
 
 .container h1 {
   color: #007ac2;
-  font-size: 42px;
+  font-size: 40px;
 }
 
 .container h3 {
