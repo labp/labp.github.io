@@ -112,8 +112,6 @@ hr {
 
 .container h1, .container h2, .container h3, .container h4 {
   font-family: 'Open Sans', Arial, sans-serif;
-  margin-bottom: 30px;
-  margin-top: 30px;
   text-align: center;
   padding: 0 4%;
   height: auto;
@@ -121,6 +119,8 @@ hr {
 
 .container h1 {
   color: #007ac2;
+  margin-bottom: 30px;
+  margin-top: 30px;
   font-size: 40px;
 }
 
@@ -130,6 +130,9 @@ hr {
   font-weight: 600;
   text-align: left;
   padding-left: 0px;
+  margin-top: 1.3em;
+  margin-bottom: 1em;
+
 }
 
 .container h3 {
@@ -138,7 +141,7 @@ hr {
 }
 
 .container ol, .container ul {
-  padding: 20px 0 0 40px;
+  padding-left: 40px;
   line-height: 1.3em;
 }
 
@@ -147,7 +150,7 @@ hr {
 }
 
 .container li {
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 
 .container a {
