@@ -124,6 +124,14 @@ hr {
   font-size: 40px;
 }
 
+.container h2 {
+  /*color: #007ac2;*/
+  font-size: 21px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 0px;
+}
+
 .container h3 {
   text-align: left;
   font-weight: bold;
