@@ -186,6 +186,11 @@ hr {
   /*display:inline;*/
 }
 
+.kooplogo {
+  /*border: 1px solid #000;*/
+  margin: 40px;
+}
+
 /* ---------------------------*/
 /* ----- Main Structure ----- */
 /* ---------------------------*/
@@ -408,5 +413,3 @@ nav ul li.active a {
     column-count:         2;
   }
 }
-
-
