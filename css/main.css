@@ -191,15 +191,27 @@ hr {
   margin: 40px;
 }
 
-.logocontainer {
+.sponsor {
+  /*border: 1px solid #000;*/
+  display: flex;
   margin-top: 30px;
-  font-size: 0.9em;
-  line-height: 1.3em;
+  min-height: 50px;
+  height: auto;
 }
 
-.logocontainer img {
-  float: right;
-  margin-left: 30px;
+.sponsor_text {
+  /*border: 1px solid #000;*/
+  flex: 1;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  position: absolute;
+  bottom: 0;
+}
+
+.sponsor img {
+  margin: 0;
+  margin-right: 40px;
+  /*border: 1px solid #000;*/
 }
 
 /* ---------------------------*/
