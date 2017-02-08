@@ -36,6 +36,13 @@
     <link href="css/base.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
+    <script>
+      function mailAddress(first, last) {
+        var host = "htwk-leipzig.de";
+        return first + "." + last + "@" + host;
+      }
+    </script>
+
   </head>
 
   <body data-spy="scroll" data-target="navbar">
@@ -245,7 +252,7 @@
               <h3>Dr.-Ing. Gerold Bausch</h3>
               <strong>Projektentwicklung und Technologietransfer</strong><br>
               Tel. +49 341 3076 3103<br>
-              gerold.bausch@htwk-leipzig.de (<a href="bausch.asc">GPG-Key</a>)<br>
+              <script>document.write(mailAddress("gerold", "bausch"));</script>&nbsp;(<a href="bausch.asc">GPG-Key</a>)<br>
               <a href="https://www.xing.com/profile/Gerold_Bausch" target="_blank"><i class="fa fa-xing-square fa-2x" aria-hidden="true"></i></a>&nbsp;
               <a href="http://linkedin.com/in/gerold-bausch-23239816" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
             </div>
@@ -257,7 +264,8 @@
               <h3>Dipl.-Ing. (FH) Mirco Fuchs</h3>
               <strong>Wissenschaftlicher Leiter</strong><br>
               Tel. +49 341 3076 3104<br>
-              mirco.fuchs@htwk-leipzig.de (<a href="fuchs.asc">GPG-Key</a>)
+              <script>document.write(mailAddress("mirco", "fuchs"));</script>
+              &nbsp;(<a href="fuchs.asc">GPG-Key</a>)
             </div>
           </div>
 <!--
@@ -277,7 +285,7 @@
               <h3>Patrick Frenzel, M.Sc.</h3>
               <strong>Wissenschaftlicher Mitarbeiter</strong><br>
               Tel. +49 341 3076 3130<br>
-              patrick.frenzel@htwk-leipzig.de
+              <script>document.write(mailAddress("patrick", "frenzel"));</script>
             </div>
           </div>
 
@@ -287,7 +295,7 @@
               <h3>Fabian Schrumpf, M.Sc.</h3>
               <strong>Wissenschaftlicher Mitarbeiter</strong><br>
               Tel. +49 341 3076 3152<br>
-              fabian.schrumpf@htwk-leipzig.de
+              <script>document.write(mailAddress("fabian", "schrumpf"));</script>
             </div>
           </div>
 
@@ -297,7 +305,7 @@
               <h3>Christoph Mönch, B.Eng.</h3>
               <strong>Wissenschaftlicher Mitarbeiter</strong><br>
               Tel. +49 341 3076 3133<br>
-              christoph.moench@htwk-leipzig.de
+              <script>document.write(mailAddress("christoph", "moench"));</script>
             </div>
           </div>
 <!--
