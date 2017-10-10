@@ -199,12 +199,20 @@ hr {
   height: auto;
 }
 
+.sponsor_logo {
+  /*border: 1px solid #000;*/
+  float: left;
+}
+
 .sponsor_text {
   /*border: 1px solid #000;*/
-  flex: 1;
+  float: none;
+  /*flex: 1;*/
   font-size: 0.8em;
   line-height: 1.3em;
   position: absolute;
+  margin-left: 200px;
+  /*width: 680px;*/
   bottom: 0;
 }
 
