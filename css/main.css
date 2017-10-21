@@ -199,12 +199,12 @@ hr {
   height: auto;
 }
 
-.sponsor_logo {
+.sponsor .logo {
   /*border: 1px solid #000;*/
   float: left;
 }
 
-.sponsor_text {
+.sponsor .text {
   /*border: 1px solid #000;*/
   float: none;
   /*flex: 1;*/
