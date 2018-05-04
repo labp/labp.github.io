@@ -334,6 +334,17 @@ nav ul li.active a {
   padding: 0px;
 }
 
+.thesis {
+  font-size: 0.9em;
+  margin-bottom: 6px;
+  list-style-type: square;
+}
+
+.thesis ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 /* ----- map ----- */
 
 #map {
