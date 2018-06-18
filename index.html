@@ -41,6 +41,11 @@
         var host = "htwk-leipzig.de";
         return first + "." + last + "@" + host;
       }
+
+      function mailAddressFTZ(name) {
+        var host = "ftz.htwk-leipzig.de";
+        return name + "@" + host;
+      }
     </script>
 
   </head>
@@ -726,7 +731,8 @@
             <div class="info">
               <h3>Alexandra Huber, B.A.</h3>
               <strong>Wissenschaftliche Mitarbeiterin</strong><br>
-              <script>document.write(mailAddress("alexandra", "huber"));</script>
+              Tel. +49 341 3076 3137<br>
+              <script>document.write(mailAddressFTZ("huber"));</script>
             </div>
           </div>
 
