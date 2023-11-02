@@ -42,6 +42,11 @@
         return first + "." + last + "@" + host;
       }
 
+      function mailAddressStud(first, last) {
+      	var host = "stud.htwk-leipzig.de";
+	return first + "." + last + "@" + host;      
+      }
+
       function mailAddressFTZ(name) {
         var host = "ftz.htwk-leipzig.de";
         return name + "@" + host;
@@ -865,7 +870,7 @@ gleichende Streckenabschnittszeitanalysen im Kanu-Slalom</em>, Masterarbeit</li>
             <div class="info">
               <h3>Bianca Reichard, M.Sc.</h3>
               <strong>Doktorandin</strong><br>
-              bianca.reichard@stud.htwk-leipzig.de<br>
+              <script>document.write(mailAddressStud("bianca", "reichard"));</script>
             </div>
           </div>
 		
@@ -874,6 +879,7 @@ gleichende Streckenabschnittszeitanalysen im Kanu-Slalom</em>, Masterarbeit</li>
            <div class="info">
              <h3>Jannik Sobisch</h3>
               <strong>Wissenschaftlicher Mitarbeiter</strong><br>
+	      <script>document.write(mailAddressStud("jannik", "sobisch"));</script>	   
            </div>
          </div>
 		
